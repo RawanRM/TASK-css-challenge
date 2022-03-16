@@ -1,11 +1,28 @@
 /* Add your code in each class */
 .container {
+  height:300px;
+  width: 420px;
+  overflow: scroll;
+  
 }
 .head {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: goldenrod;
+  text-align: center;
+  color:brown;
+  font-size: 20px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: rgb(232, 233, 187);
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 /* This is a gift - Does not need editing */
